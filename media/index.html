@@ -13,4 +13,4 @@ rankFilter=b.dataset.rankFilter;
 document.querySelectorAll('.rank-btn').forEach(x=>x.classList.toggle('active',x===b));
 apply();
 if(rankFilter!=='all'){const t=document.getElementById('rank-'+rankFilter);if(t)t.scrollIntoView({behavior:'smooth',block:'start'});}}));
-</script></body></html>
+</script><button class="to-top" id="toTop" aria-label="トップへ戻る">↑</button><script>const tt=document.getElementById("toTop");addEventListener("scroll",()=>{tt.classList.toggle("show",scrollY>300)});tt.addEventListener("click",()=>scrollTo({top:0,behavior:"smooth"}));</script></body></html>

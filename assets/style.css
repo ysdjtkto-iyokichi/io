@@ -2,7 +2,7 @@
 a{color:#2563eb;text-decoration:none}
 .site-header{background:#20303f;color:#fff}.header-inner{max-width:1000px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:24px}
 .brand{color:#fff;font-weight:700;font-size:20px}
-.library-tabs{display:flex;gap:8px}.library-tabs a{color:#cfe0ee;padding:4px 14px;border-radius:999px}
+.library-tabs{display:flex;gap:8px;margin-left:auto}.library-tabs a{color:#cfe0ee;padding:4px 14px;border-radius:999px}
 .library-tabs a.active{background:#fff;color:#20303f;font-weight:700}
 main{max-width:1000px;margin:0 auto;padding:20px}
 .search-box{width:100%;padding:12px 14px;font-size:16px;border:1px solid #ccd;border-radius:10px;margin:8px 0 20px}
@@ -27,4 +27,5 @@ main{max-width:1000px;margin:0 auto;padding:20px}
 .summary h3{font-size:16px}
 .summary-list{margin:6px 0 12px;padding-left:20px}
 .rank-nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 6px}.rank-btn{padding:6px 16px;border-radius:999px;border:1px solid #b9c4cf;background:#fff;font-size:14px;cursor:pointer}.rank-btn.active{background:#20303f;color:#fff;font-weight:700}
+.to-top{position:fixed;right:16px;bottom:16px;z-index:50;width:48px;height:48px;border-radius:50%;border:1px solid #b9c4cf;background:#20303f;color:#fff;font-size:20px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:opacity .2s}.to-top.show{opacity:1;pointer-events:auto}
 .hidden{display:none}
